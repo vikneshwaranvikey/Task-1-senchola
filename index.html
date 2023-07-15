@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</form>
+<h3>Application Form</h3>
+<form method="post">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <label>Name</label>
+        </td>
+        <td>
+          <input type="text" name="fname" required placeholder="Enter your name"/>
+        </td>
+      </tr>     
+      <tr>
+        <td>
+          <label>Email</label>
+        </td>
+        <td>
+          <input type="email" name="email" required placeholder="Enter your email"/>
+        </td>
+      </tr>     
+      <tr>
+        <td>
+          <label>Gender</label>
+        </td>
+        <td>
+          Male<input type="radio" name="Gender" value="male" required />
+          Female<input type="radio" name="Gender" value="female" required />
+        </td>
+      </tr> 
+      <td>
+        <label><b>CHOOSE SKILLS</b></label>
+      </td>      
+      <tr>
+              
+        <td>
+          HTML<input
+            type="checkbox"
+            name="skill"
+            value="html"
+            required
+          />
+          CSS<input
+            type="checkbox"
+            name="skill"
+            value="css"
+            required
+          />
+          JS<input
+          type="checkbox"
+          name="skill"
+          value="js"
+          required
+        />
+          Bootstrap<input
+            type="checkbox"
+            name="skill"
+            value="Bootstrap"
+            required
+          />
+        
+        React<input
+        type="checkbox"
+        name="skill"
+        value="react"
+        required
+      />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>JOB TYPE</label>
+        </td>
+        <td>
+          <select>
+            <option value="FRONT END DEVELOPER">FRONT END DEVELOPER</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+            <option value="React">React</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <label for="browser">Choose your browser from the list:</label>
+        </td>
+        <td>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+        </td>
+      </tr>
+      <tr>
+        <td> <textarea id="w3review" name="w3review" rows="4" cols="50">Give a summary about you</textarea></td>       
+      </tr> 
+      <td>
+        <input type="submit">
+    </td>
+    </tbody>
+  </table>
+</form>
+<br>
+<hr>
+<br>
+<h1>2. Batch List</h1>
+<ol >
+  <li type="square"><h3>SENCHOLA UNIVERSITY</h3> <ol>
+    <li>Firt Batch <ol type="A">
+      <li>Mani</li>
+      <li>vikey</li>
+      <li>siva</li>
+    </ol></li>
+    <li>Second Batch
+      <ol type="I">
+        <li>vijay</li>
+        <li>suba</li>
+        <li>Ajith</li>
+      </ol>
+    </li>
+    <li>Third Batch
+      <ol type="i">
+        <li>Sathu</li>
+        <li>Kumar</li>
+        <li>Ganesh</li>
+      </ol>
+    </li>
+  </ol></li>  
+</ol>
+<br>
+<hr>
+<h1>Cours</h1>
+<table border="1" cellpadding="6" >
+    <tr>
+        <th>S.NO 1</th>
+        <th>S.NO 2</th>
+        <th>S.NO 3</th>
+        <th>S.NO 4</th>
+    </tr>
+    <tr >
+        <td rowspan="2">REACT JS</td>
+        <td>HTML</td>
+        <td rowspan="2">REACT JS</td>
+        <td>CSS</td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>HTML</td>
+    </tr>
+    <tr>
+        <td colspan="2">JAVA SCRIPT</td>
+        <td colspan="2">BOOTSTRAP</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
